@@ -1,0 +1,122 @@
+# A-very-Basic-webpage-in-HTML-CSS
+
+<html>
+<head>
+    <style>
+      body{background-image: url(https://i.ytimg.com/vi/scYvJUUOHK4/maxresdefault.jpg);
+        background-repeat: repeat;
+      }
+.xDiv {
+  border: 5px outset red; width: 100%;
+  background-color: rgb(106, 92, 0);
+  text-align: center; color: antiquewhite;
+}
+.yDiv {
+  border:5px black; width:300;
+  background-color: goldenrod;
+  width:100%;
+  text-align: center;
+  color: red;
+}
+.home {
+  width: 300;
+  height: 150;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  background-color:cyan;
+}
+h1 {text-align: center; text-decoration-color: brown;}
+Div {text-align: center;}
+</style>
+</head>
+<title> Practical</title>
+<body>
+  <div class="yDiv"><h1>Automotive.com</h1></div>
+<table>
+<tr>
+<th>S.no.</th>
+<th>Cars</th>
+<th>Picture</th>
+<th>Price</th>
+<th>More information</th>
+</tr>
+
+    <tr>
+    <td>1.</td>
+    <td> Maruti Suzuki - Vitara Brezza </td>
+    <td> <img class="home" src="https://www.cartoq.com/wp-content/uploads/2021/11/Maruti-Suzuki-Vitara-Brezza-rendering-featured.jpg"></td>
+    <td> ₹9.5L - ₹14.2L </td>
+    <td><a href="https://www.marutisuzuki.com/brezza">Click here to know more about this vehicle</a></td>
+    </tr>
+
+<tr>
+<td>2.</td>
+<td>Hyundai Venue</td>
+<td><img class="home" src="https://imgd.aeplcdn.com/1056x594/n/7sncs0b_1641707.jpg?q=75"></td>
+<td>₹10L- ₹14L</td>
+<td><a href="https://www.hyundai.com/in/en/find-a-car/venue/highlights?utm_source=search&utm_campaign=NewVENUE-AlwaysOn-2023&utm_medium=SOV&id=VENUE&prod=venue&gclid=CjwKCAiAl9efBhAkEiwA4ToriiD2G5yWcdt37ZdNdpEPJJ9mcwN_pYeCJzSkN_HANYcbrBLWFIRt_BoCbmkQAvD_BwE">Click here to know more about this vehicle</a></td>
+</tr>
+<tr>
+  <td>3.</td>
+  <td>Tata Harrier</td>
+  <td> <img class="home" src="https://imgd.aeplcdn.com/0x0/n/cw/ec/32958/harrier-exterior-right-front-three-quarter-53.jpeg"></td>
+  <td> ₹15L - ₹25L</td>
+  <td><a href="https://cars.tatamotors.com/suv/harrier"> Click here to know more about this vehicle</a></td>
+  </tr>
+<tr>
+<td>4.</td>
+<td> MG ZS-EV</td>
+<td><img class="home" src="https://images.news18.com/ibnlive/uploads/2022/03/2022-mg-zs-ev-review-16487207653x2.jpg"></td>
+<td>₹25L - ₹28L </td>
+<td><a href="https://www.mgmotor.co.in/vehicles/mgzsev-electric-car-in-india/digital-kmi?gclid=CjwKCAiAl9efBhAkEiwA4Torikrw2w-noaFezms259o28RzXKBTAVaj0SqP_1PycXP6WtvLkkmzFYRoCI4wQAvD_BwE&ecid=google:ads:IA:MG:zsev:search:ads:leads:Feb-23&ef_id=CjwKCAiAl9efBhAkEiwA4Torikrw2w-noaFezms259o28RzXKBTAVaj0SqP_1PycXP6WtvLkkmzFYRoCI4wQAvD_BwE:G:s&s_kwcid=AL!8805!3!586348162538!b!!g!!mg%20zs%20ev"> Click here to know more about this vehicle</a></td>
+</tr>
+</table>
+<br><br>
+<div class="xDiv"><h2><a href="C:\Users\jamlo\Downloads\Sencond page for Shreyansh front end practicum.html">Click here to get yourself registered and to get latest updates</a></h2></div>
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+    <style>
+        body{ 
+            background-image: url(https://i.ytimg.com/vi/scYvJUUOHK4/maxresdefault.jpg);
+            background-repeat: repeat;
+        }
+        .myDiv {
+     border: 5px outset red; width: 400;
+     background-color: rgb(19, 115, 147);
+     text-align: center; color: antiquewhite;
+      }
+    </style> 
+    </head>
+    <title></title>
+    <body>
+     <form> 
+        <div class ="myDiv">
+                <label for="fname"> First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter the text here"><br>
+                
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter the text here"><br>
+        <label for="Contact"> Contact no.:</label>
+        <input type="text" id="contact" name="contact" placeholder="Phone Number"><br>
+        
+        <p align ="centre"> Gender: <br>
+                <label for="gender"> Male: </label>
+                 <input type="radio" id="gender" name="gender" value="male">&nbsp;&nbsp;
+         <label for="gender"> Female: </label>
+         <input type="radio" id="gender" name="gender" value="female"> &nbsp;&nbsp;
+                 <label for="gender"> Others:</label>
+                 <input type="radio" id="gender" name="gender" value="others"> <br></p>
+        
+        <input type="submit">
+        </div>
+            </form>
+        </body>
+        </html>
