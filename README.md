@@ -1,5 +1,3 @@
-# A-very-Basic-webpage-in-HTML-CSS
-
 <html>
 <head>
     <style>
@@ -42,7 +40,6 @@ Div {text-align: center;}
 <th>Price</th>
 <th>More information</th>
 </tr>
-
     <tr>
     <td>1.</td>
     <td> Maruti Suzuki - Vitara Brezza </td>
@@ -50,7 +47,6 @@ Div {text-align: center;}
     <td> ₹9.5L - ₹14.2L </td>
     <td><a href="https://www.marutisuzuki.com/brezza">Click here to know more about this vehicle</a></td>
     </tr>
-
 <tr>
 <td>2.</td>
 <td>Hyundai Venue</td>
@@ -81,42 +77,3 @@ Div {text-align: center;}
 
 
 
-<html>
-<head>
-    <style>
-        body{ 
-            background-image: url(https://i.ytimg.com/vi/scYvJUUOHK4/maxresdefault.jpg);
-            background-repeat: repeat;
-        }
-        .myDiv {
-     border: 5px outset red; width: 400;
-     background-color: rgb(19, 115, 147);
-     text-align: center; color: antiquewhite;
-      }
-    </style> 
-    </head>
-    <title></title>
-    <body>
-     <form> 
-        <div class ="myDiv">
-                <label for="fname"> First name:</label>
-                <input type="text" id="fname" name="fname" placeholder="Enter the text here"><br>
-                
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" placeholder="Enter the text here"><br>
-        <label for="Contact"> Contact no.:</label>
-        <input type="text" id="contact" name="contact" placeholder="Phone Number"><br>
-        
-        <p align ="centre"> Gender: <br>
-                <label for="gender"> Male: </label>
-                 <input type="radio" id="gender" name="gender" value="male">&nbsp;&nbsp;
-         <label for="gender"> Female: </label>
-         <input type="radio" id="gender" name="gender" value="female"> &nbsp;&nbsp;
-                 <label for="gender"> Others:</label>
-                 <input type="radio" id="gender" name="gender" value="others"> <br></p>
-        
-        <input type="submit">
-        </div>
-            </form>
-        </body>
-        </html>
